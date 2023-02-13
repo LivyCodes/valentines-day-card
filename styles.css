@@ -3,10 +3,12 @@ body {
   place-items: center;
   min-height: 100vh;
   overflow: hidden;
-  background: #fae1dd;
+  background: #ffcdd2;
 }
-.container {
+.container-fluid {
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .valentines {
   position: relative;
@@ -18,7 +20,7 @@ body {
   position: relative;
   width: 300px;
   height: 200px;
-  background: #f08080;
+  background: #d59bf6;
   display: grid;
   place-items: center;
 }
@@ -27,7 +29,7 @@ body {
   position: absolute;
   width: 212px;
   height: 212px;
-  background: #f08080;
+  background: #d7acd4;
   transform: rotate(45deg);
   top: -105px;
   left: 44px;
@@ -35,7 +37,7 @@ body {
 }
 .front {
   position: absolute;
-  border-right: 180px solid #f4978e;
+  border-right: 180px solid #edb1f1;
   border-top: 95px solid transparent;
   border-bottom: 100px solid transparent;
   left: 120px;
@@ -47,7 +49,7 @@ body {
 .front::before {
   position: absolute;
   content: "";
-  border-left: 300px solid #fda996;
+  border-left: 300px solid #e698eb;
   border-top: 195px solid transparent;
   left: -120px;
   top: -95px;
@@ -56,7 +58,7 @@ body {
   position: relative;
   width: 250px;
   height: 180px;
-  background: #fff;
+  background: #e3e3e3;
   border-radius: 2px;
   display: grid;
   place-items: center;
@@ -70,13 +72,13 @@ body {
   right: 10px;
   bottom: 10px;
   border: 2px solid #003049;
-  border-style: dashed;
+  border-style: double;
 }
 .valentines:hover .card {
   transform: translateY(-100px);
 }
 .card .text {
-  font-family: "Brush Script MT", cursive;
+  font-family: cursive;
   font-size: 28px;
   text-align: center;
   line-height: 25px;
@@ -116,7 +118,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
 }
 .valentines::before {
