@@ -76,6 +76,8 @@ body {
 }
 .valentines:hover .card {
   transform: translateY(-100px);
+  animation: slide 0.2s;
+  animation-delay: 0.5s;
 }
 .card .text {
   font-family: cursive;
